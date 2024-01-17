@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 3</title>
+</head>
+<body>
+    <div>
+        <h1 style="color: blue;">Primer formulario</h1>
+        <form action="">
+            <input type="text" name="nombre" placeholder="nombre/s" required />
+            <br>
+            <input type="text" name="apellido" placeholder="apellido/s"  required/>
+            <br>
+            <input type="text" name="usuario" placeholder="usuario" required/>
+            <br>
+            <input type="password" name="clave" placeholder="contraseña" required/>
+            <br>
+            <input type="password" name="clave2" placeholder="repetir contraseña" required/>
+            <br>
+            <input type="tel" name="telefono" placeholder="telefono" />
+            <br>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <br>
+            <input type="date" name="nacimiento" id="nacimiento" >
+            <br>
+            <input type="email" name="email" placeholder="correo electronico" />
+            <br>
+            <br>
+            <select name="pais" id="" required>
+                <option value="" selected>
+                    Pais de Origen
+                </option>
+                <option value="1">Mexico</option>
+                <option value="2">Canada</option>
+                <option value="3">Estados Unidos</option>
+                <option value="4">Brasil</option>
+                <option value="5">Argentina</option>
+            </select>
+            <br>
+               <label for="genero">Genero</label> 
+               <br>
+               <input type="radio" id="Femenino" name="genero" value="1">
+               <label for="Femenino">Femenino  </label>
+               <input type="radio" id="Masculino" name="genero" value="2">
+               <label for="Masculino">Masculino  </label>
+               <input type="radio" id="otro" name="" value="3">
+               <label for="otro">otro  </label>
+               <br>
+            <input type="checkbox" name="terminos"> Acepto terminos y condiciones
+               <br>
+            <input type="submit" value="Registrar">
+            <input type="reset" value="cancelar">
+
+        </form>
+    </div>
+</body>
+</html>
